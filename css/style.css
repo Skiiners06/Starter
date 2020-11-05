@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.hamb {
+  height: 50px;
+  margin-left: 35px;
+}
+
+.barrnav {
+  margin-top: -55px;
+  margin-right: 20px;
+  float: right;
+}
+
+html {
+  height: 100vh;
+}
+
+/* en version mobile on cache les éléments du menu burger  de base*/
+ul {
+  display: none;
+}
+
+/* Toggle pour afficher le sous menu*/
+.styleToggle {
+  display: block;
+  list-style: none;
+}
+
+/***************************
+   Ajout des images en fond
+ **************************/
+/*
+.accueil{
+  background-image: url('../img/accueil.jpg');
+  background-size:cover;
+}
+*/
+
+/*# sourceMappingURL=style.css.map */
